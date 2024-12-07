@@ -36,8 +36,6 @@ import com.migvidal.expandablebutton.ui.theme.ExpandableButtonTheme
 
 @Composable
 fun ExpandableButton(modifier: Modifier = Modifier) {
-
-
     Surface(
         modifier = modifier.padding(8.dp),
         shape = MaterialTheme.shapes.small,
