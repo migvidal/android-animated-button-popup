@@ -39,7 +39,6 @@ fun ExpandableButton(modifier: Modifier = Modifier) {
     Surface(
         modifier = modifier.padding(8.dp),
         shape = MaterialTheme.shapes.small,
-        color = Color.White,
     ) {
         val expandedState = remember { MutableTransitionState(false) }
         var iconVisible by remember { mutableStateOf(true) }
