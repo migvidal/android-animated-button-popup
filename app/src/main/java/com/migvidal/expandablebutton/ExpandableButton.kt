@@ -48,7 +48,7 @@ fun ExpandableButton(modifier: Modifier = Modifier) {
         }
 
         Card(
-            modifier = Modifier.clickable {
+            modifier = Modifier.clickable(indication = null, interactionSource = null) {
                 expandedState.targetState = true
                 iconVisible = false
             },
